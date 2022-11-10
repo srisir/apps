@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.admin {
+  display: flex;
+}
+
+.side_pannel {
+  width: 10rem;
+  height: 100vh;
+  border-right: 1px solid red;
+  padding: 0px 1rem;
+  background-color: aliceblue;
+  a {
+    display: block;
+    padding: 8px 10px;
+    box-shadow: 1px 1px 5px rgb(168, 168, 168);
+    border-radius: 3px;
+    margin: 10px 0px;
+    background-color: #fff;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem auto;
+  overflow: scroll;
+}
+th {
+  color: green;
+  font-size: 1.2rem;
+}
+td,
+th {
+  padding: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  outline: none;
+}
+.table {
+  width: 80%;
+  margin: auto;
+  h1 {
+    padding: 1rem 0px;
+    border-bottom: 5px solid #000;
+    color: green;
+  }
+}
